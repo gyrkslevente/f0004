@@ -1,0 +1,9 @@
+név = input('Hogy hívnak téged? ')
+kor = input('És hány éves te? ')
+kor = int(kor) 
+év = input('Melyik évben járunk?')
+év =int(év)
+születési_év = év - kor
+print(név, ', te ', születési_év, '-ban született.', sep='')
+érettségi_év = születési_év + 18
+print(név, ', te ', érettségi_év, '-ban érettségizel.', sep='')
